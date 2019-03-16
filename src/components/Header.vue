@@ -68,7 +68,7 @@
     .el-menu>img{
         float: left;
         margin-top: 5px;
-        margin-left: 260px;
+        margin-left: 13%;
         margin-right: 30px;
         width: 150px;
 
@@ -77,18 +77,18 @@
         float: right;
         position: relative;
         top: 13px;
-        right: 260px;
+        right: 13%;
     }
     .el-menu>input{
         float: right;
         position: relative;
         top: 10px;
-        right: 320px;
+        right: 17%;
         height: 27px;
         border:1px solid rgb(230,230,230);
         border-radius: 14px;
         padding: 0 14px;
-        width: 210px;
+        width: 10%;
     }
     .el-menu .split{
         font-size: 21px;
