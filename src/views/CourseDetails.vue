@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="course">
         <div class="image">
             <img src="../assets/weichuang.jpg" alt="">
             <div class="image-top">
@@ -12,7 +12,7 @@
                 一站式解决零基础就业
             </p>
         </div>
-        <div>
+        <div class="star_container">
             <p class="star">
                 明星学员
             </p>
@@ -133,6 +133,10 @@
 </script>
 
 <style scoped>
+    .course{
+        margin: 0 auto;
+        width: 1200px;
+    }
     .image{
         position: relative;
         width: 100%;
@@ -169,6 +173,7 @@
         transform:translate(-50%,0)
     }
     .star{
+        text-align: center;
         margin: 15px 0;
         font-size: 35px;
         color: #000;
@@ -182,15 +187,18 @@
     }
     .studentList{
         display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
         margin: 20px 0 0 0;
         padding: 0;
-
+        width: 100% ;
     }
     .studentList li{
         list-style: none;
-        flex: 1;
-        margin-right: 20px;
-        height: 359px;
+        /*flex: 1;*/
+        width: 31%;
+        /*margin-right: 20px;*/
+        /*height: 359px;*/
         border: solid 1px grey;
     }
     .studentList li img{
@@ -202,15 +210,20 @@
         letter-spacing: 3px;
         /*overflow: hidden;*/
         /*padding: 10px 10px 0;*/
-        text-align: center;
+        text-align: left;
         text-indent: 35px;
-        width: 390px;
+        width: 100%;
+        height: 108px;
         overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
     }
     .studentList li p{
         font-size: 18px;
         text-align: left;
-        margin: 20px 0 0 20px;
+        margin: 20px 0;
         color: grey;
     }
     .studentList li p span{
