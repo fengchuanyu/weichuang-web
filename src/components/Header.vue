@@ -57,7 +57,7 @@
         padding: 0;
     }
     .el-menu--horizontal>.el-menu-item{
-        height: 50px;
+        height: 56px;
         line-height: 50px;
     }
     .el-menu-item{
@@ -67,6 +67,7 @@
 
     .el-menu>img{
         float: left;
+        margin-top: 5px;
         margin-left: 260px;
         margin-right: 30px;
         width: 150px;
