@@ -23,18 +23,31 @@
 </template>
 
 <<script>
+    import router from "../router";
+
     export default {
         name: "Header",
         data() {
             return {
-                activeIndex: '1',
-                activeIndex2: '1'
+
             };
         },
         methods: {
             handleSelect(key, keyPath) {
-                console.log(key, keyPath);
-            }
+
+                if(key==1){
+                    // router.push("");
+                }else if(key==2){
+                    // router.push("");
+                }else if(key==3){
+                    // router.push("");
+                }else if(key==4){
+                    router.push("About-US");
+                }
+
+
+            },
+
         }
     }
 </script>
