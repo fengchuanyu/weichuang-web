@@ -24,7 +24,7 @@
 <style scoped>
     .footer{
         color: rgb(135,135,135);
-        background-color: rgb(245,250,250);
+        background-color: white;
         border-radius: 25px;
         padding:30px 80px;
         margin: 0 auto;

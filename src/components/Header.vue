@@ -53,6 +53,9 @@
 </script>
 
 <style scoped>
+    .el-header{
+        padding: 0;
+    }
     .el-menu--horizontal>.el-menu-item{
         height: 50px;
         line-height: 50px;

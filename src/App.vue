@@ -27,5 +27,7 @@
   text-align: center;
   color: #2c3e50;
   margin: 0 auto;
+  background-color: rgb(249,250,254);
+  padding-bottom: 40px;
 }
 </style>
