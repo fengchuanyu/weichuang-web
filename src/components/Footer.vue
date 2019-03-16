@@ -27,8 +27,8 @@
         background-color: white;
         border-radius: 25px;
         padding:30px 80px;
-        margin: 0 auto;
-        width: 1200px;
+        margin: 30px auto 0 auto;
+        width: 1040px;
     }
     .footer-bottom{
         color: rgb(135,135,135);

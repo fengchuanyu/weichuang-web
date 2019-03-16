@@ -1,6 +1,9 @@
 <template>
     <div class="about-US">
 
+        <div class="intro">
+
+        </div>
 
     </div>
 
@@ -26,5 +29,12 @@
 </script>
 
 <style scoped>
+    .about-US{
+        background-color: white;
+        width: 1200px;
+        margin: 0 auto;
+        height: 200px;
+        border-radius: 25px;
+    }
 
 </style>
