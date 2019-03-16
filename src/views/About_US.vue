@@ -12,8 +12,12 @@
                     <div class="circle">
                         <img src="" alt="">
                     </div>
-                    <h3>单老师</h3>
-                    <span></span>
+                    <h3 class="name">单老师</h3>
+                    <span class="line"></span>
+                    <div class="experience">
+                        2003年毕业，从事程序开发15年，骨灰级程序员，高级讲师，培养过大量优秀开发人才，主要从事Web程序开发和移动App开发。掌握技术：在Web前端方向有非常深的造诣，是国内最早从事前端开发的一批工程师；几乎所有Java方向涉及的相关技术，包括各种主流框架（SSH、SSI等），熟悉各种应用服务器（Weblogic、JBoss、Tomcat等）；熟悉各种数据库（Oracle、SQLServer、MySQL、MongoDB等）；熟悉Linux系统；熟悉PHP开发；熟悉Node.js开发。
+                    </div>
+                    <div class="more">更多资历→</div>
 
                 </div>
                 <div class="detail"></div>
@@ -109,11 +113,35 @@
         height: 100px;
         border-radius: 50px;
     }
-    .about-US .teacher .list .detail>h3{
+    .about-US .teacher .list .detail .name{
         font-size: 22px;
+        font-weight: 400;
         text-align: center;
         margin: 0;
         padding: 0;
+    }
+    .about-US .teacher .list .detail .line{
+        border: 1px solid #ec9170;
+        display: block;
+        width: 128px;
+        margin: 20px auto;
+    }
+    .about-US .teacher .list .detail .experience{
+        height: 115px;
+        overflow: hidden;
+        padding: 10px;
+        text-indent: 25px;
+        font-size: 14px;
+        line-height: 1.8;
+    }
+    .about-US .teacher .list .detail .more{
+        float: right;
+        position: relative;
+        top: 20px;
+        right: 10px;
+        font-size: 14px;
+        color: rgb(82,157,227);
+
     }
 
 
