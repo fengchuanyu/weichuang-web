@@ -38,7 +38,7 @@
                 if(key==1){
                     // router.push("");
                 }else if(key==2){
-                    // router.push("");
+                    router.push("coursedetails");
                 }else if(key==3){
                     // router.push("");
                 }else if(key==4){

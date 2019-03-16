@@ -34,5 +34,10 @@ export default new Router({
           name: 'header',
           component: Header
       },
+      {
+          path: '/coursedetails',
+          name: 'coursedetails',
+          component: () => import('./views/CourseDetails.vue')
+      },
   ]
 })
