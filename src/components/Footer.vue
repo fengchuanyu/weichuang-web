@@ -28,6 +28,7 @@
         border-radius: 25px;
         padding:30px 80px;
         margin: 0 auto;
+        width: 1200px;
     }
     .footer-bottom{
         color: rgb(135,135,135);

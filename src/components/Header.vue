@@ -64,19 +64,22 @@
 
     .el-menu>img{
         float: left;
+        margin-left: 260px;
         margin-right: 30px;
         width: 150px;
+
     }
     .el-menu>span{
         float: right;
         position: relative;
         top: 13px;
+        right: 260px;
     }
     .el-menu>input{
         float: right;
         position: relative;
         top: 10px;
-        right: 60px;
+        right: 320px;
         height: 27px;
         border:1px solid rgb(230,230,230);
         border-radius: 14px;
