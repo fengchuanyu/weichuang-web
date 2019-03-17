@@ -8,15 +8,11 @@
                 <el-menu-item index="2">成功案例</el-menu-item>
                 <el-menu-item index="3">新闻资讯</el-menu-item>
                 <el-menu-item index="4">关于我们</el-menu-item>
-
                 <span>注册</span>
                 <span class="split">&nbsp;&nbsp;/&nbsp;&nbsp;</span>
                 <span>登录</span>
                 <input type="text" placeholder="请输入要查找的内容">
-
             </el-menu>
-
-
         </el-header>
     </el-container>
 
@@ -33,7 +29,7 @@
             };
         },
         methods: {
-            handleSelect(key, keyPath) {
+            handleSelect(key) {
 
                 if(key==1){
                     // router.push("");
@@ -78,6 +74,18 @@
         position: relative;
         top: 13px;
         right: 13%;
+        webkit-user-select:none;
+        -moz-user-select:none;
+        -ms-user-select:none;
+        user-select:none;
+        cursor: pointer;
+    }
+    .el-menu>span:focus{
+        outline: none;
+    }
+    .el-menu>input:focus{
+        outline: none;
+        border-color: rgb(0,144,255);
     }
     .el-menu>input{
         float: right;
@@ -89,9 +97,11 @@
         border-radius: 14px;
         padding: 0 14px;
         width: 10%;
+
     }
     .el-menu .split{
         font-size: 21px;
+        cursor: default;
     }
 
 
